@@ -1,0 +1,15 @@
+apiVersion: v1
+description: A OpenLDAP Chart for OpenShift 4.5+
+name: ocp-openldap
+version: 0.1.5
+keywords: [ldap]
+home: https://www.openldap.ort
+sources:
+  - https://github.com/openldap/openldap
+maintainers:
+  - name: Hans Kristian Moen
+    email: hans.kristian.moen@gmail.com
+  - name: Philippe Thomas
+    email: phthom@yahoo.fr
+engine: gotpl
+icon: https://upload.wikimedia.org/wikipedia/commons/7/71/Database-openldap.svg
